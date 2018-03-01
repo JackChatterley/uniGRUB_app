@@ -14,6 +14,8 @@
 		0461DE7E2047227800CF31E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0461DE7C2047227800CF31E9 /* LaunchScreen.storyboard */; };
 		0461DE892047227800CF31E9 /* uniGRUBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461DE882047227800CF31E9 /* uniGRUBTests.swift */; };
 		0461DE942047227800CF31E9 /* uniGRUBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461DE932047227800CF31E9 /* uniGRUBUITests.swift */; };
+		0465A98E2047458F007AFCAB /* SListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465A98D2047458F007AFCAB /* SListViewController.swift */; };
+		04EB85852047420A00205594 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04EB85842047420A00205594 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0461DE8F2047227800CF31E9 /* uniGRUBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uniGRUBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0461DE932047227800CF31E9 /* uniGRUBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uniGRUBUITests.swift; sourceTree = "<group>"; };
 		0461DE952047227800CF31E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0465A98D2047458F007AFCAB /* SListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SListViewController.swift; sourceTree = "<group>"; };
+		04EB85842047420A00205594 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		0461DE722047227800CF31E9 /* uniGRUB */ = {
 			isa = PBXGroup;
 			children = (
-				0461DE732047227800CF31E9 /* AppDelegate.swift */,
 				0461DE752047227800CF31E9 /* ViewController.swift */,
 				0461DE772047227800CF31E9 /* Main.storyboard */,
+				0465A98D2047458F007AFCAB /* SListViewController.swift */,
+				0461DE732047227800CF31E9 /* AppDelegate.swift */,
 				0461DE7A2047227800CF31E9 /* Assets.xcassets */,
 				0461DE7C2047227800CF31E9 /* LaunchScreen.storyboard */,
 				0461DE7F2047227800CF31E9 /* Info.plist */,
+				04EB85842047420A00205594 /* GoogleService-Info.plist */,
 			);
 			path = uniGRUB;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0461DE7E2047227800CF31E9 /* LaunchScreen.storyboard in Resources */,
+				04EB85852047420A00205594 /* GoogleService-Info.plist in Resources */,
 				0461DE7B2047227800CF31E9 /* Assets.xcassets in Resources */,
 				0461DE792047227800CF31E9 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 			files = (
 				0461DE762047227800CF31E9 /* ViewController.swift in Sources */,
 				0461DE742047227800CF31E9 /* AppDelegate.swift in Sources */,
+				0465A98E2047458F007AFCAB /* SListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
